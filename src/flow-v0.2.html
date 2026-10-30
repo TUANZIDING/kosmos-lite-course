@@ -1,0 +1,8 @@
+<div id="flow"><button class="x" onclick="flowClose()" title="退出（Esc）">×</button>
+<div class="vp"><img id="flowImg" src="" alt="工作流总览"></div>
+<div class="side"><div class="k" id="flowK">流程动画</div><h3 id="flowT"></h3><p id="flowD"></p>
+<div class="steps" id="flowSteps"></div>
+<div class="ctl"><button onclick="flowStep(-1)" title="上一步 ←"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6" stroke="#fff" stroke-width="2.4" fill="none"/></svg></button>
+<button id="flowPP" onclick="flowToggle()" style="min-width:150px"></button>
+<button onclick="flowStep(1)" title="下一步 →"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" stroke="#fff" stroke-width="2.4" fill="none"/></svg></button>
+<button onclick="flowClose()">退出</button></div></div></div>

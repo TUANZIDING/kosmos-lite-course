@@ -1,0 +1,216 @@
+<section class="page" id="p1" data-title="封面" data-mag="封面">
+<div class="ttl"><div class="k">AI 科研工作流 · 线下实战课</div>
+<h1>让 AI 当你的科研合伙人<br><em class="hl">但别让它替你下结论</em></h1>
+<div class="sub">Kosmos-lite Research Loop v1.3.0<br>从公开数据到“可以停下来”的湿实验</div>
+<div class="meta">讲者：丁海祥　急诊创伤外科 · 苏州大学临床医学博士在读<br>运行环境：Mac + Codex</div></div>
+<div class="chips"><div><b>6 个痛点</b>科研人每天都在踩的坑</div><div><b>3 道门</b>课题门 · 花钱门 · 对外门</div><div><b>1 次演示</b>在 Codex 里现场跑通</div></div>
+<div class="eye"><img src="IMG_HERO" alt="Kosmos-lite"><span class="lab">Dry-lab before wet-lab</span></div></section>
+
+<section class="page" id="p2" data-title="开场：你中了几个？" data-mag="痛点">
+<div class="hd"><div class="kick"><span class="no">01</span>开场互动</div><h2 class="t">先举手：下面 6 个痛点，你中了几个？</h2><p class="lede">这节课不讲“AI 有多神”，只讲一件事：<b>怎样让 AI 的速度，不变成你的科研风险。</b></p></div>
+<div class="g3">
+<div class="card box" data-b="1"><span class="tag">痛点 1</span><h3 style="margin-top:12px">方向靠拍脑袋</h3><p>看了几篇文章就立项，做了半年才发现关键分子在你的模型里根本不表达。</p></div>
+<div class="card box" data-b="1"><span class="tag eo">痛点 2</span><h3 style="margin-top:12px">AI 引用张口就来</h3><p>写得头头是道，一查 PMID 是编的，或者文章早就撤稿了。</p></div>
+<div class="card box" data-b="2"><span class="tag he">痛点 3</span><h3 style="margin-top:12px">统计看着对，其实错</h3><p>p 值很漂亮，但方法写错、样本混入、把细胞当成了独立样本。</p></div>
+<div class="card box" data-b="2"><span class="tag wn">痛点 4</span><h3 style="margin-top:12px">结果出来再改假设</h3><p>实验不理想，就“调整一下预期”，事后讲成一个完整故事。</p></div>
+<div class="card box" data-b="3"><span class="tag ok">痛点 5</span><h3 style="margin-top:12px">阴性 = 白做</h3><p>没有提前定止损线，钱和时间一路投下去，停不下来。</p></div>
+<div class="card box" data-b="3"><span class="tag">痛点 6</span><h3 style="margin-top:12px">说不清证据从哪来</h3><p>写标书、写论文、答审稿人时，每句话背后是哪个数据、哪段代码？</p></div></div></section>
+
+<section class="page" id="p3" data-title="原版 Kosmos 做到了什么" data-mag="背景">
+<div class="hd"><div class="kick"><span class="no">02</span>背景：AI 科学家 Kosmos</div><h2 class="t">一次运行 12 小时、读 1,500 篇文献、写 42,000 行代码</h2></div>
+<div class="g3" style="grid-template-columns:repeat(4,1fr)">
+<div class="card box" data-b="1"><div class="num">12<small>小时</small></div><p style="margin-top:10px">单次运行上限，循环做数据分析、文献检索、假设生成</p></div>
+<div class="card box" data-b="1"><div class="num">200<small>次</small></div><p style="margin-top:10px">智能体轮次，靠“结构化世界模型”保持不跑题</p></div>
+<div class="card box" data-b="2"><div class="num">79.4<small>%</small></div><p style="margin-top:10px">报告中被独立科学家判为准确的陈述比例</p></div>
+<div class="card box" data-b="2"><div class="num">≈6<small>个月</small></div><p style="margin-top:10px">合作者估计一次 20 轮运行相当于自己的研究时间</p></div></div>
+<div class="g2" style="margin-top:26px">
+<div class="card box" data-b="3"><h3><span class="tag ok">值得学</span></h3><ul><li><b>世界模型</b>：让“分析智能体”和“文献智能体”共享同一份事实底账</li><li>每句结论都挂代码或原始文献，可追溯</li></ul></div>
+<div class="card box" data-b="4"><h3><span class="tag wn">换个角度看</span></h3><ul><li>79.4% 准确，意味着<b>大约每 5 句就有 1 句不对</b></li><li>它的准确率不能拿来给任何“复刻工具”背书</li></ul></div></div></section>
+
+<section class="page" id="p4" data-title="核心反转" data-mag="理念">
+<div class="hd"><div class="kick"><span class="no">03</span>核心理念</div><h2 class="t">AI 的问题不是不够聪明，而是<em class="hl">太会讲故事</em></h2></div>
+<div class="g2" style="grid-template-columns:1fr 1.1fr">
+<div class="card box" data-b="1"><h3>所以我们要的不是更强的 AI</h3><p style="font-size:26px;line-height:1.7">而是一套<b>更严的流程</b>：<br>它跑得快没关系，但每一步都要<br>① 留下痕迹　② 分清证据等级　③ 关键决定必须由人放行。</p></div>
+<div class="card box" data-b="2"><h3>Kosmos-lite 的三句话</h3><table class="t">
+<tr><th style="width:30%">借鉴</th><th>做法</th></tr>
+<tr><td><b>世界模型</b></td><td><code>world-model.md</code> 是唯一真值，假设的支持、削弱、待定都写在这里</td></tr>
+<tr><td><b>门禁</b></td><td>课题门（G1）、花钱门（G-spend）、对外门（G-external），Codex 不能自己放行</td></tr>
+<tr><td><b>留痕</b></td><td>每次检索、选数据、改参数、升降假设，都写进 <code>trace.jsonl</code></td></tr>
+<tr><td><b>交付</b></td><td>不止实验设计：再加一篇干实验文章和可复核的证据包</td></tr></table></div></div></section>
+
+<section class="page" id="p5" data-title="一图看懂" data-mag="总览">
+<div class="dense"><div class="hd"><div class="kick"><span class="no">04</span>一图看懂</div><h2 class="t">从课题配置到台架 SOP：AI 有界执行，作者把关键决定</h2></div>
+<div class="fx" style="grid-template-columns:360px 1fr">
+<div class="card fig flowthumb" data-b="1" style="padding:10px" onclick="flowOpen()" title="点击放大播放"><img src="IMG_INFO" alt="工作流总览" style="max-height:690px"><span class="playbtn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>放大播放</span></div>
+<div class="pts" data-b="2">
+<div class="pt bl"><h4>① 课题配置 topic.json</h4><p>研究问题、模型、干预、读出、预算填实；Codex 最多问 3 个问题，其余给默认值并标“待确认”。</p></div>
+<div class="pt eo"><h4>G1 课题门</h4><p>作者批准时记录 topic.json 的 SHA-256；配置改一个字节，批准自动失效。</p></div>
+<div class="pt bl"><h4>② 文献 + 公开数据 + 本地分析</h4><p>免费 PubMed / GEO 检索；分析固定随机种子，报告效应量与多重校正；证据分“事实 / 关联 / 推测”。</p></div>
+<div class="pt wn"><h4>收尾门</h4><p>复盘存在、validate 通过、引用核验 PASS，才能进入下一轮；跳过须作者同意并写明理由。</p></div>
+<div class="pt ok"><h4>③–⑥ 假设表 → 分阶段实验 → SOP → 干实验文章</h4><p>体外快筛 → 原代复证 → 体内验证；设施参数标“待核实”；v1.3.0 在 SOP 之后增加干实验文章与证据包，湿实验部分在数据锁定前只写设计。</p></div></div></div></div></section>
+
+<section class="page" id="p6" data-title="痛点 1 · 方向拍脑袋" data-mag="痛点1">
+<div class="hd"><div class="kick"><span class="no">05</span>痛点 1 · 方向靠拍脑袋</div><h2 class="t">先用公开数据花一周“试错”，再决定要不要花半年做实验</h2></div>
+<div class="g2" style="grid-template-columns:1.1fr 1fr">
+<div class="card box" data-b="1"><h3><span class="tag">匿名案例</span>一个“看起来很美”的分子轴</h3>
+<ul><li>文献里 A 分子能稳定 B 的 mRNA，想做成“A→B→表型”的标书</li>
+<li>干实验复核：肿瘤队列中 A–B 相关<b>很弱，多重校正后不显著</b>；它的家族同源物 A′ 与 B 的相关反而明显更强</li>
+<li>细胞系表达谱：A 在多数常用细胞系里很低，蛋白可能测不到</li>
+<li>A 与病人生存无明确关系，B 才有信号</li></ul></div>
+<div style="display:flex;flex-direction:column;gap:20px">
+<div class="card box" data-b="2"><h3><span class="tag ok">结论不是“不能做”</span></h3><p>而是<b>不能直接把它当主轴重投入</b>：先做一个几百元的小实验——确认 A 蛋白在你的细胞里测得到、抗体不认同源物——再决定继续还是转向。</p></div>
+<div class="card box" data-b="3"><h3><span class="tag wn">工作流怎么帮你</span></h3><ul><li>G1 之前，Codex 不能开始检索与分析</li><li>每条发现写进证据日志并分级</li><li>假设表里“削弱”和“支持”一样要写</li></ul></div></div></div></section>
+
+<section class="page" id="p7" data-title="痛点 2 · AI 编引用" data-mag="痛点2">
+<div class="hd"><div class="kick"><span class="no">06</span>痛点 2 · AI 引用张口就来</div><h2 class="t">每句话都要有出处，而且要分清“事实、关联、推测”</h2></div>
+<div class="g3">
+<div class="card box" data-b="1"><span class="tag ok">事实</span><h3 style="margin-top:12px">可直接复核</h3><p>某数据集共 N 例原发肿瘤；某基因在某队列中上调。来源：PMID / GSE / DOI / 项目内文件。</p></div>
+<div class="card box" data-b="2"><span class="tag">关联</span><h3 style="margin-top:12px">只说相关</h3><p>“B 高表达与总生存较差相关”。<b>不能写成</b>“B 导致预后差”。</p></div>
+<div class="card box" data-b="3"><span class="tag eo">推测</span><h3 style="margin-top:12px">需要实验</h3><p>“B 可能通过 C 通路影响线粒体”。湿实验没做之前，只能停在这一级。</p></div></div>
+<div class="g2" style="margin-top:24px">
+<div class="card box" data-b="4"><h3>引用核验做什么</h3><ul><li>检查 PMID / GSE 等标识是否真实存在</li><li>检查 PubMed 中的撤稿标记</li><li>网络不通时记为 <b>UNVERIFIED</b>，而不是“通过”</li></ul></div>
+<div class="card box" data-b="4"><h3><span class="tag wn">它做不到什么</span></h3><ul><li>“存在、没撤稿”≠“支持你这句话”</li><li>核验表列出标题，关键主张必须<b>人</b>逐条抽查</li><li>DOI / PMC 的更正、撤稿需人工补查</li></ul></div></div></section>
+
+<section class="page" id="p8" data-title="痛点 3 · 统计看着对" data-mag="痛点3">
+<div class="dense"><div class="hd"><div class="kick"><span class="no">07</span>痛点 3 · 统计看着对，其实错</div><h2 class="t">三个真实踩坑：AI 写的统计，同样需要“第二双眼睛”</h2></div>
+<div class="g3">
+<div class="card box" data-b="1"><span class="tag eo">坑 1 · 手写检验</span><h3 style="margin-top:12px">“极显著”变成“不显著”</h3><p>AI 自己手写了比例风险（Schoenfeld）检验，报告“严重违反假设、p 值极小”。换成熟统计库 lifelines 复核：<b>远不显著，不违反</b>。结论整个反转。</p><p class="src" style="margin-top:10px">教训：关键检验用成熟库，并与第二种实现交叉验证。</p></div>
+<div class="card box" data-b="2"><span class="tag he">坑 2 · 样本混入</span><h3 style="margin-top:12px">多 1 例，就不是同一批人</h3><p>一次复算误把 1 例<b>复发肿瘤</b>样本算进“原发肿瘤”组。原报告的样本数才是对的。</p><p class="src" style="margin-top:10px">教训：样本类型、患者级去重、单位要逐项核对。</p></div>
+<div class="card box" data-b="3"><span class="tag wn">坑 3 · 伪重复</span><h3 style="margin-top:12px">5,000 个细胞 ≠ 5,000 个样本</h3><p>公开单细胞研究中，每个条件只有 1 个混合文库，却以细胞为单位做检验，p 值被细胞数“放大”。</p><p class="src" style="margin-top:10px">例：Collao 2025, Am J Physiol Cell Physiol（GSE241675）。这类数据只适合描述性分析。</p></div></div>
+<div class="card box" data-b="4" style="margin-top:22px"><h3>v1.3.0 的护栏</h3><p>单样本 / 无重复数据只做探索性描述 · 分析固定随机种子并报告效应量与校正 · 数据来源登记 SHA-256 与版本 · 不编造任何 PMID、GSE、基因名、数值或设备参数 · 相关不写成因果。</p></div></div></section>
+
+<section class="page" id="p9" data-title="痛点 4 · 事后改假设" data-mag="痛点4">
+<div class="hd"><div class="kick"><span class="no">08</span>痛点 4 · 结果出来再改假设</div><h2 class="t">湿实验数据“锁定”之前，稿件里只许写设计和判定标准</h2></div>
+<div class="g2" style="grid-template-columns:1fr 1.1fr">
+<div class="card box" data-b="1"><h3>湿实验槽位怎么工作</h3><ol style="padding-left:26px">
+<li>干实验阶段，稿件里先给湿实验留好“槽位”</li>
+<li>槽位里只能写：设计、样本量、<b>预设的判定标准</b></li>
+<li>一旦出现“显著升高”“证实了”这类结果性措辞，检查直接失败</li>
+<li>原始数据放进 <code>wetlab/raw/</code>，作者执行 <code>lock-wet</code>，记录 SHA-256</li>
+<li>锁定之后才能写结果；之后谁改了原始数据，都会被发现</li></ol></div>
+<div style="display:flex;flex-direction:column;gap:20px">
+<div class="card box" data-b="2"><h3><span class="tag ok">v1.3.0 新增：预设对照</span></h3><ul><li>阳性对照、阴性对照、随机匹配对照，提前写进计划快照</li><li>阴性对照需要提前定“等效范围”，否则只能判为“不确定”</li></ul></div>
+<div class="card box" data-b="3"><h3><span class="tag wn">诚实地说</span></h3><p>工具记录的是“你什么时候写下了什么”，<b>不能证明这是预注册</b>。拿已有数据复跑，不能叫预注册；工具也发现不了你在工具之外偷偷跑过的分析。</p></div></div></div></section>
+
+<section class="page" id="p10" data-title="痛点 5 · 停不下来" data-mag="痛点5">
+<div class="hd"><div class="kick"><span class="no">09</span>痛点 5 · 阴性 = 白做？</div><h2 class="t">好的实验设计，第一页就写着“什么情况下我会停”</h2></div>
+<div class="g2" style="grid-template-columns:1.1fr 1fr">
+<div class="card box" data-b="1"><h3>示例：一个敲低实验的止损规则</h3><table class="t">
+<tr><th style="width:34%">关口</th><th>预设标准</th><th style="width:22%">不达标</th></tr>
+<tr><td>0 · 目标测得到吗</td><td>内源蛋白可检测，抗体不认同源物</td><td>停，换方向</td></tr>
+<tr><td>1 · 敲低有效吗</td><td>两条独立 siRNA，RNA 降 ≥70%、蛋白降 ≥60%</td><td>停，查试剂</td></tr>
+<tr><td>2 · 下游有反应吗</td><td>目标读出变化 ≥25%，两条 siRNA 方向一致</td><td>记为阴性结果</td></tr>
+<tr><td>3 · 能救回来吗</td><td>抗干扰回补，读出恢复到对照的 0.8–1.5 倍</td><td>不宣称特异性</td></tr></table>
+<p class="src" style="margin-top:10px">示例数值仅作教学演示，具体阈值须按你的体系和文献设定。</p></div>
+<div style="display:flex;flex-direction:column;gap:20px">
+<div class="card box" data-b="2"><h3>阴性结果也分好坏</h3><ul><li><b>有信息量的阴性</b>：阳性对照有效、置信区间排除了有意义的效应</li><li><b>灵敏度不足的阴性</b>：对照没起作用或样本太少，什么也说明不了</li></ul></div>
+<div class="card box" data-b="3"><h3>为什么这样省钱</h3><p>不要一开始就买齐敲低、回补、动物实验的全部试剂。<b>每一关都是一个可以体面停下的出口。</b></p></div></div></div></section>
+
+<section class="page" id="p11" data-title="痛点 6 · 证据从哪来" data-mag="痛点6">
+<div class="hd"><div class="kick"><span class="no">10</span>痛点 6 · 说不清证据从哪来</div><h2 class="t">稿件里的每一个论断，都能一路追到数据、代码和文献</h2></div>
+<div class="g3">
+<div class="card box" data-b="1"><span class="tag">论断登记表</span><h3 style="margin-top:12px">claims.csv</h3><p>每条论断记录：证据等级、证据来源、属于哪个图表槽位、是否经过人工核对。</p></div>
+<div class="card box" data-b="2"><span class="tag he">稿件阶段</span><h3 style="margin-top:12px">三级门槛</h3><p><code>dry_only</code> → <code>dry_plus_wet</code> → <code>submission_candidate</code>，逐级检查，作者同意才切换。</p></div>
+<div class="card box" data-b="3"><span class="tag eo">证据包</span><h3 style="margin-top:12px">逐文件哈希</h3><p>稿件、图表、脚本、来源清单、论断登记一起打包；湿实验原始数据只登记哈希，不复制。</p></div></div>
+<div class="g2" style="margin-top:24px">
+<div class="card box" data-b="4"><h3>v1.3.0：措辞检查</h3><p>按证据类型检查用词：只有相关性证据，却写了“证实”“导致”，干实验阶段给出警告，投稿阶段直接拦下；自动生成局限性审阅清单。</p></div>
+<div class="card box" data-b="4"><h3>对你的实际好处</h3><p>答审稿人“这个结论哪来的”，或者写标书“前期基础”时，<b>打开证据包就能指给他看</b>，不用翻聊天记录。</p></div></div></section>
+
+<section class="page" id="p12" data-title="人机分工" data-mag="分工">
+<div class="dense"><div class="hd"><div class="kick"><span class="no">11</span>人机分工</div><h2 class="t">Codex 负责“跑”，作者负责“放行”</h2></div>
+<div class="card box" data-b="1"><table class="t">
+<tr><th style="width:20%">步骤</th><th>Codex 做什么</th><th style="width:28%">产出</th><th style="width:18%">谁放行</th></tr>
+<tr><td>① 课题配置</td><td>把问题、模型、干预、读出、预算填实；最多问 3 个问题</td><td><code>topic.json</code></td><td>—</td></tr>
+<tr><td><b>G1 课题门</b></td><td>记录 topic.json 的 SHA-256，改动即失效</td><td><code>project-state.json</code></td><td><b>作者</b></td></tr>
+<tr><td>② 文献与数据</td><td>PubMed / GEO 检索、数据集评估、下载、本地分析</td><td><code>literature/</code> <code>analysis/</code></td><td>自动（G1 后）</td></tr>
+<tr><td>② 证据日志</td><td>每条结论分级，来源可追溯</td><td><code>evidence-log.md</code></td><td>validate 校验</td></tr>
+<tr><td>收尾门</td><td>复盘 + 校验 + 引用 PASS 才进下一轮</td><td>状态历史</td><td>跳过需作者同意</td></tr>
+<tr><td>④⑤ 设计与 SOP</td><td>分阶段实验设计；设施参数标【待核实：设施】</td><td><code>design/</code> <code>sop/</code></td><td>作者到平台核实</td></tr>
+<tr><td>⑥ 干实验文章</td><td>英文 IMRaD；湿实验槽位只写设计</td><td><code>manuscript/</code></td><td>作者审阅</td></tr>
+<tr><td><b>湿实验设计</b></td><td>把对照、样本量、预设判定标准和止损线写进湿实验槽位</td><td><code>design/</code> 稿件湿实验槽位</td><td>作者审阅</td></tr>
+<tr><td><b>实验结果记录</b></td><td>—（Codex 不做实验）作者把原始数据放入 <code>wetlab/raw/</code>，锁定并记录哈希</td><td>原始数据哈希</td><td><b>作者</b> <code>lock-wet</code></td></tr>
+<tr><td><b>进入写作工作流</b></td><td>导出证据包，交给论文写作工作流继续成稿</td><td><code>handoff/evidence-pack-*/</code></td><td>check + 引用 PASS 才冻结</td></tr></table></div></div></section>
+
+<section class="page" id="p13" data-title="迁移与新意" data-mag="新意">
+<div class="hd"><div class="kick"><span class="no">12</span>延伸讨论 · 看到好文章换个模型做，算新意吗？</div><h2 class="t">迁移本身没问题，关键是<em class="hl">事先写清楚你在赌什么</em></h2></div>
+<div class="g2" style="grid-template-columns:1fr 1.1fr">
+<div class="card box" data-b="1"><h3>科研本来就站在前人肩上</h3><p>例如：某干预在<b>急性化学损伤</b>模型中促进肌肉再生 → 迁移到<b>放射性损伤</b>模型。两者机制差别很大（DNA 损伤、干细胞耗竭、慢性纤维化），这本身就是一个正当的科学问题。</p></div>
+<div class="card box" data-b="2"><h3>三向预测，比单向“也有效”更有分量</h3><table class="t">
+<tr><th style="width:26%">结局</th><th>如果出现，说明什么</th></tr>
+<tr><td><b>同样有效</b></td><td>效应能跨越损伤机制，适用面更广</td></tr>
+<tr><td><b>减弱</b></td><td>需要更高剂量或更早窗口，划出了剂量边界</td></tr>
+<tr><td><b>失效</b></td><td>依赖完整的干细胞池，提示需要联合策略</td></tr></table>
+<p class="src" style="margin-top:10px">三种结局都提前写下 → 哪种结果都有信息量，阴性也有现成的解释。</p></div></div>
+<div class="card box" data-b="3" style="margin-top:22px"><p><span class="demo">v1.4 设计中</span>　“类比迁移卡”：写明源文献证明到哪一步、迁移距离、三向预测、最便宜的证伪实验；没有在看数据前写下的预测，只能算“复现”，不能自称“新机制”。</p></div></section>
+
+<section class="page" id="p14" data-title="诚实的边界" data-mag="边界">
+<div class="hd"><div class="kick"><span class="no">13</span>诚实的边界</div><h2 class="t">这套工具能做什么、不能做什么，要先讲清楚</h2></div>
+<div class="g2">
+<div class="card box" data-b="1"><h3><span class="tag ok">能做到</span></h3><ul>
+<li>强制关键决定由人放行，并留下谁、何时、在哪台机器批准的记录</li>
+<li>发现被改动的配置、数据和安装文件</li>
+<li>拦下没有出处的结论、结果性措辞和不存在的引用</li>
+<li>把干实验、湿实验、写作串成一条可复核的链</li></ul></div>
+<div class="card box" data-b="2"><h3><span class="tag wn">做不到</span></h3><ul>
+<li>证明科研结论正确</li>
+<li>证明检索已经穷尽、各个队列彼此独立</li>
+<li>证明实验数据真实、作者身份真实</li>
+<li>证明“引用存在”就等于“引用支持你”</li>
+<li>证明隐私扫描通过就没有隐私信息</li></ul></div></div>
+<div class="card box" data-b="3" style="margin-top:24px"><p style="font-size:24px"><b>一句话：</b>工具把“偷懒和作弊”的成本提高了，但科研诚信的最后一道门，永远是你自己。</p></div></section>
+
+<section class="page" id="p15" data-title="现场演示" data-mag="演示">
+<div class="dense"><div class="hd"><div class="kick"><span class="no">14</span>现场演示 · Codex</div><h2 class="t">10 分钟跑通：安装 → 体检 → 建项目 → 看门禁拦住 AI</h2></div>
+<div class="g2" style="grid-template-columns:1.15fr 1fr">
+<div class="card box" data-b="1"><h3>演示脚本（演示课题：地塞米松诱导肌萎缩）</h3>
+<pre class="cmd">git clone --branch v1.3.0 &lt;仓库地址&gt;
+python3 -B scripts/install-v1.3.0.py
+python3 -B scripts/doctor-v1.3.0.py --offline
+
+init-project-v1.3.0.py ~/Projects/demo-loop \
+    --example demo-dex-atrophy
+research-state-v1.3.0.py status ~/Projects/demo-loop \
+    --action literature      # → BLOCKED
+validate-project-v1.3.0.py ~/Projects/demo-loop
+manuscript-v1.3.0.py init  ~/Projects/demo-loop
+manuscript-v1.3.0.py check ~/Projects/demo-loop</pre></div>
+<div class="pts" data-b="2">
+<div class="pt bl"><h4>看点 1 · 门禁</h4><p>课题没批准时，让 Codex 去检索文献，它会被拦下（BLOCKED）。这正是我们想要的。</p></div>
+<div class="pt eo"><h4>看点 2 · 篡改即失效</h4><p>批准后改 topic.json 一个字，再查状态：批准失效，需要重新批准。</p></div>
+<div class="pt wn"><h4>看点 3 · 湿实验槽位</h4><p>在湿实验槽位里写一句“显著升高”，check 立即报错。</p></div>
+<div class="pt ok"><h4>在 Codex 里调用</h4><p><code>$kosmos-lite-research-loop-v1-3-0</code> 或 <code>/kosmos-lite-research-loop-v1-3-0 &lt;项目目录&gt;</code></p></div></div></div></div></section>
+
+<section class="page" id="p16" data-title="版本演进" data-mag="版本">
+<div class="dense"><div class="hd"><div class="kick"><span class="no">15</span>版本演进</div><h2 class="t">每一版都来自一次真实踩坑</h2></div>
+<div class="card box" data-b="1"><table class="t">
+<tr><th style="width:14%">版本</th><th style="width:30%">解决的问题</th><th>新增能力</th></tr>
+<tr><td><b>v1.0</b></td><td>AI 跑题、没有放行机制</td><td>课题门、证据分级、PubMed/GEO 免费检索、世界模型</td></tr>
+<tr><td><b>v1.1</b></td><td>引用造假、一轮做完直接进下一轮</td><td>引用存在 / 撤稿核验；收尾门；全过程留痕；多机配置；安装校验</td></tr>
+<tr><td><b>v1.2</b></td><td>干实验做完不知道怎么写</td><td>干实验文章、湿实验槽位、lock-wet 数据锁定、论断登记、证据包</td></tr>
+<tr><td><b>v1.3</b></td><td>“没有对照的阳性”和“说过头的措辞”</td><td>预设对照与阴性审阅、措辞检查、局限性清单、多源检索与覆盖记录、数据来源登记、隐私扫描例外</td></tr>
+<tr><td><span class="demo">v1.4</span></td><td>换模型做是不是新意</td><td>类比迁移卡（设计中，未发布）</td></tr></table></div>
+<div class="g2" style="margin-top:22px">
+<div class="card box" data-b="2"><h3>运行要求</h3><p>macOS + Codex + Python 3.10–3.14；核心脚本只用标准库，不需要 pip；旧版本默认保留。</p></div>
+<div class="card box" data-b="3"><h3>维护原则</h3><p>工具已冻结，只修真实使用中发现的 bug；下一步的改进由湿实验结果驱动，而不是继续打磨工具。</p></div></div></div></section>
+
+<section class="page" id="p17" data-title="带走 5 条规则" data-mag="总结">
+<div class="hd"><div class="kick"><span class="no">16</span>今天带走的 5 条规则</div><h2 class="t">就算不用这个工具，这 5 条也能直接用在你的课题上</h2></div>
+<div class="pts" style="max-width:1560px">
+<div class="pt bl" data-b="1"><h4>1 · 先干后湿</h4><p style="font-size:21px">立项前，先用公开数据花一周给假设“找茬”；结论不是“能不能做”，而是“先做哪个最便宜的实验”。</p></div>
+<div class="pt eo" data-b="2"><h4>2 · 每句话三选一</h4><p style="font-size:21px">事实、关联、推测。分不清的，就按推测处理。</p></div>
+<div class="pt he" data-b="3" style="border-left:6px solid var(--he)"><h4>3 · 统计要第二双眼睛</h4><p style="font-size:21px">关键检验用成熟库并交叉验证；先查样本类型和重复单位，再看 p 值。</p></div>
+<div class="pt wn" data-b="4"><h4>4 · 先写判定标准，再看数据</h4><p style="font-size:21px">止损线、阳性 / 阴性对照、三向预测，在实验开始前写下来并留下时间。</p></div>
+<div class="pt ok" data-b="5"><h4>5 · AI 跑，人放行</h4><p style="font-size:21px">课题、花钱、对外发布、锁定数据，这四件事永远由你本人决定。</p></div></div></section>
+
+<section class="page" id="p18" data-title="讨论与资源" data-mag="讨论">
+<div class="hd"><div class="kick"><span class="no">17</span>讨论与资源</div><h2 class="t">留给你的三个问题</h2></div>
+<div class="g2">
+<div class="card box" data-b="1"><h3>思考题</h3><ol style="padding-left:26px">
+<li>你手上的课题，最便宜的“证伪实验”是什么？花多少钱、多少天？</li>
+<li>你最近写的一段结果，有没有把“关联”写成了“因果”？</li>
+<li>如果实验结果是阴性，你提前写好的解释是什么？</li></ol></div>
+<div class="card box" data-b="2"><h3>资源</h3><ul>
+<li>Mitchener L, et al. Kosmos: An AI Scientist for Autonomous Discovery. arXiv:2511.02824, 2025.</li>
+<li>Collao N, et al. Am J Physiol Cell Physiol. 2025;328:C1995–C2012（伪重复案例）</li>
+<li>Kosmos-lite Research Loop v1.3.0：Mac / Codex 工作流，获取方式请课后联系讲者</li></ul></div></div>
+<p class="src" style="margin-top:24px">课件中的匿名案例已去除课题名称与基因名；数值仅用于说明方法学问题。</p></section>

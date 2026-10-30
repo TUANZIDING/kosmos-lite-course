@@ -1,0 +1,27 @@
+.flowthumb{position:relative;cursor:zoom-in}
+.flowthumb .playbtn{position:absolute;left:50%;bottom:24px;transform:translateX(-50%);display:flex;align-items:center;gap:10px;padding:14px 26px;border-radius:40px;background:rgba(28,35,51,.82);color:#fff;font-size:22px;font-weight:600;box-shadow:0 10px 30px rgba(0,0,0,.25);transition:.25s}
+.flowthumb .playbtn svg{width:26px;height:26px;fill:#fff}
+.flowthumb:hover .playbtn{background:var(--blue);transform:translateX(-50%) scale(1.06)}
+#flow{position:absolute;inset:0;z-index:80;background:rgba(16,22,36,.97);opacity:0;visibility:hidden;transition:.4s}
+#flow.show{opacity:1;visibility:visible}
+#flow .vp{position:absolute;left:80px;top:90px;width:1100px;height:900px;border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 30px 80px rgba(0,0,0,.45)}
+#flow .vp img{position:absolute;left:0;top:0;width:704px;height:1484px;max-width:none;transform-origin:0 0;transition:transform 1.3s cubic-bezier(.45,.05,.25,1)}
+#flow .side{position:absolute;left:1240px;top:90px;width:600px;height:900px;display:flex;flex-direction:column;color:#fff}
+#flow .side .k{font-size:20px;letter-spacing:.2em;color:#9CC3EE;font-weight:600}
+#flow .side h3{font-family:var(--serif);font-size:46px;line-height:1.25;margin:14px 0 18px}
+#flow .side p{font-size:24px;line-height:1.65;color:#D6DEEA;min-height:250px}
+#flow .steps{display:flex;flex-direction:column;gap:6px;margin-top:auto}
+#flow .steps button{display:flex;align-items:center;gap:14px;text-align:left;font-size:19px;color:#AEB9CB;padding:6px 10px;border-radius:10px;position:relative;overflow:hidden}
+#flow .steps button i{font-style:normal;font-family:var(--serif);width:30px;color:#E7A3C0}
+#flow .steps button.on{color:#fff;background:rgba(255,255,255,.1)}
+#flow .steps button .pg{position:absolute;left:0;bottom:0;height:3px;width:0;background:linear-gradient(90deg,var(--blue2),var(--eo))}
+#flow .steps button.on .pg{animation:pg var(--dur) linear forwards}
+#flow.paused .steps button.on .pg{animation-play-state:paused}
+@keyframes pg{to{width:100%}}
+#flow .ctl{display:flex;gap:12px;margin-top:22px}
+#flow .ctl button{height:56px;min-width:56px;padding:0 20px;border-radius:30px;background:rgba(255,255,255,.12);color:#fff;font-size:20px;font-weight:600;display:flex;align-items:center;justify-content:center;gap:8px}
+#flow .ctl button:hover{background:rgba(255,255,255,.22)}
+#flow .ctl svg{width:22px;height:22px;fill:#fff}
+#flow .x{position:absolute;right:40px;top:28px;width:56px;height:56px;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;font-size:34px;line-height:56px;text-align:center}
+#flow .x:hover{background:rgba(255,255,255,.25)}
+@media print{#flow{display:none}.flowthumb .playbtn{display:none}}
