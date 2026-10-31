@@ -3,7 +3,7 @@
 <p align="center"><strong>让 AI 当你的科研合伙人，但别让它替你下结论。</strong><br>
 A hands-on lecture for researchers: how a gated AI workflow in Codex turns six common research pain points into guardrails.</p>
 
-<p align="center"><a href="https://tuanziding.github.io/tuanzi-ai-academy/lessons/kosmos-lite-coursev1.0.html"><strong>在线打开课件 · Open the slides</strong></a></p>
+<p align="center"><a href="https://aiai-academy.com/lessons/kosmos-lite-coursev1.0.html"><strong>在线打开课件 · Open the slides</strong></a></p>
 
 ## 这是什么
 一套 18 页、1920×1080 的中文课件，用于线下 AI 课。主线是科研人的 6 个痛点，每个痛点对应 Kosmos-lite Research Loop **v1.3.0** 的一道流程护栏：
