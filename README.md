@@ -27,11 +27,12 @@ A hands-on lecture for researchers: how a gated AI workflow in Codex turns six c
 ## 结构
 ```
 index.html          课件成品（单文件）
-src/pages-v0.2.html 18 页内容
+src/pages-v0.3.html 18 页内容
 src/base.css        版式与配色
 src/base.js         翻页、目录、进度条
 src/flow-v0.2.*     第 5 页流程动画
-src/build-v0.2.py   重新生成 index.html：cd src && python3 build-v0.2.py
+src/big-v0.3.css    投屏放大字号层
+src/build-v0.3.py   重新生成 index.html：cd src && python3 build-v0.3.py
 ```
 
 ## 说明

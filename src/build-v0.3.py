@@ -1,5 +1,5 @@
 import base64
-p=open('pages-v0.2.html',encoding='utf-8').read()
+p=open('pages-v0.3.html',encoding='utf-8').read()
 b64=lambda f:'data:image/jpeg;base64,'+base64.b64encode(open(f,'rb').read()).decode()
 p=p.replace('IMG_HERO',b64('hero-ring-v0.1.jpg')).replace('IMG_INFO',b64('kosmos-lite-overview-infographic-v1.1.jpg'))
 css=open('base.css').read()+open('flow-v0.2.css').read()+'''
@@ -9,6 +9,7 @@ pre.cmd code{background:none;color:inherit}
 #p1 .eye img{transform:scale(1.0);animation:zoom2 14s ease-in-out infinite alternate}
 @keyframes zoom2{to{transform:scale(1.12)}}
 '''
+css+=open('big-v0.3.css').read()
 js=open('base.js').read()+open('flow-v0.2.js').read()
 flow=open('flow-v0.2.html').read().replace('IMG_INFO',b64('kosmos-lite-overview-infographic-v1.1.jpg'))
 n=p.count('<section class="page"')
